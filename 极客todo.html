@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <title>极客todo</title>
+  <link type="text/css" rel="stylesheet" href="./极客todo.css/极客todo.css">
+</head>
+
+<body>
+  <div class="todo-container">
+    <h1 class="todo-title">极客 todo</h1>
+    <div class="todo-content">
+      <div class="todo-input-cell">
+        <span id="todo-input-icon">
+          <img class="input-icon" data-index="" src="./极客todo.images/arrow-down.png">
+        </span>
+        <input id="todo-input" type="text" name="todo" placeholder="需要做什么呢">
+      </div>
+      <ul id="todo-list">
+        <li class="todo-item active">
+          <div class="todo-item-hd"></div>
+          <div class="todo-item-bd">待办一</div>
+          <div class="todo-item-ft">
+            <img class="todo-ft-icon" src="./极客todo.images/delete.png">
+          </div>
+        </li>
+        <li class="todo-item">
+          <div class="todo-item-hd"></div>
+          <div class="todo-item-bd">待办二</div>
+          <div class="todo-item-ft">
+            <img class="todo-ft-icon" src="./极客todo.images/delete.png">
+          </div>
+        </li>
+        <li class="todo-item">
+          <div class="todo-item-hd"></div>
+          <div class="todo-item-bd">待办三</div>
+          <div class="todo-item-ft">
+            <img class="todo-ft-icon" src="./极客todo.images/delete.png">
+          </div>
+        </li>
+        <li class="todo-item">
+          <div class="todo-item-hd"></div>
+          <div class="todo-item-bd">待办四</div>
+          <div class="todo-item-ft">
+            <img class="todo-ft-icon" src="./极客todo.images/delete.png">
+          </div>
+        </li>
+      </ul>
+      <div class="todo-tag">
+        <div id="todo-all">
+          <span id="all-number">3</span>
+          <span class="all-project">项目</span>
+        </div>
+        <div id="todo-filter">
+          <span class="filter-item active">全部</span>
+          <span class="filter-item">进行中</span>
+          <span class="filter-item">已完成</span>
+        </div>
+        <div id="todo-remove">
+          <span id="remove">删除已完成</span>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="./极客todo/极客todo.js"></script>
+</body>
+
+</html>
